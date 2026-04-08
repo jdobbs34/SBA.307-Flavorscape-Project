@@ -1,10 +1,12 @@
+# SBA.307-Flavorscape-Project
+
 # My Favorite Recipes – A Simple Culinary Site
 
 ## Links
 
 Website - 
 
-Github - https://github.com/jdobbs34/Flavorscape
+Github - https://github.com/jdobbs34/SBA.307-Flavorscape-Project
 
 
 ## Technologies Used 

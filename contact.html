@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+    body{
+      text-align: left;
+    }
+
+    input, textarea{
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    input{
+      padding: 5px;
+      margin-top: 3px;
+    }
+    
+    .info, .recipe {
+      display: flex;
+      flex-direction: column;
+    }
+
+    textarea {
+      padding: 5px 50px 100px 5px;
+    }
+
+    label {
+      text-align: left;
+      margin-left: 0;
+    }
+
+    form {
+      width: 40%;
+      height: 75%;
+      margin: 80px auto;
+      padding: 10px;
+    }
+
+    button {
+    margin-bottom: 10px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+      <header>
+        <h1>Welcome to Flavorscape</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          laboriosam corporis provident sapiente voluptatum laudantium
+          aspernatur consequatur velit sunt dolore aut, quae doloremque, magni
+          ea atque aliquam nesciunt dolor ipsam?
+        </p>
+      </header>
+     <nav>
+        <ul>
+          <li class="home"><a href="index.html">Home</a></li>
+          <div class="dropdown">
+            <li class="recipes-page">Recipes</li>
+            <div class="dropdown-content"><a href="desserts.html">Desserts</a></div>
+          </div>
+          <li class="contact-page"><a href="contact.html">Contact Page</a></li>
+        </ul>
+      </nav>
+      <div>
+
+
+        <fieldset>
+          <form action="info" class="info">
+            <label for="name">Name</label>
+            <input type="text" name="name" is="name" placeholder="Enter Name">
+            <label for="email">Email</label>
+            <input type="email" name="email" is="email" placeholder="Enter Email">
+          </form>
+        
+          <form action="recipe" class="recipe">
+            <label for="recipee-name">Recipe Name</label>
+            <input type="text" name="name" is="name" placeholder="Enter Recipe Name">
+            <textarea name="text" id="ingrediants">Enter Ingredients here</textarea>
+            <button type="file" id="myButton">Browse...</button>
+            <label for="">No file selected</label>
+          </form>
+        
+        </fieldset>
+      </div>  
+              
+      <footer style="background-color: #ce936e;">@ &copy; 2025 Your Company Name. All rights reserved.</footer>
+      
+    </main>
+  </body>
+</html>
