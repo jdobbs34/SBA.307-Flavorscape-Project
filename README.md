@@ -1,6 +1,6 @@
 # SBA.307-Flavorscape-Project
 
-# My Favorite Recipes – A Simple Culinary Site
+## My Favorite Recipes – A Simple Culinary Site
 
 ## Links
 
